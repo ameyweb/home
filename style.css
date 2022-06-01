@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+ body{
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+}
+
+
+.nav {
+    background-color: white;
+    height: auto;
+    min-width: 100%;
+    color: black;
+    font-size: auto;
+    border-radius: 50px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+
+body div nav ul div {
+    padding: 2%;
+}
+
+.logo {
+    border: solid 3px white;
+    border-radius: 50px;
+    margin: 1% 1% 0.5% 1%;
+    background: white;
+}
+
+.linkAncors {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2%;
+    display: flex;
+    user-select: none;
+}
+
+.linkAncors:hover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2%;
+    display: flex;
+    user-select: none;
+    text-decoration: overline;
+}
+
+.linkAncors2 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2%;
+    user-select: none;
+    font-size: 1.5em;
+}
+
+.linkAncors2:hover {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2%;
+    user-select: none;
+    font-size: 1.5em;
+    text-decoration: overline;
+}
+
+::selection {
+    color: white;
+    background: #02AAB0;
+  }
+
+  .gradient{
+      color: white;
+        font-size: 4em;
+        font-weight: bold;
+        text-align: center; 
+    background: linear-gradient(to right, #02AAB0, #00CDAC, #02AAB0);
+    background-clip: text;  
+  }
+
+  .gts{
+      background-color: white;
+      width: 250px;
+      height: 60px;
+      border-radius: 50px;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      float: right;
+  }

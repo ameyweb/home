@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amey Web Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="AMEYSEARCHERTRANSPERANT.png">
+</head>
+
+<body>
+  <div class="nav">
+    <ul>
+      <img src="AMEYSEARCHERTRANSPERANT.png" alt="Logo" height="50px" width="50px" class="logo">
+      <p id="aHome" class="linkAncors">Home</p>
+      <p id="aSearch" class="linkAncors">Search</p>
+      <p id="aWebPlayer" class="linkAncors">Web Player</p>
+      <p id="aDevIdeas" class="linkAncors">Devoloper Ideas</p>
+      <p id="aAskUs" class="linkAncors">Ask Us</p>
+      <p id="aFollowUs" class="linkAncors">Follow Us</p>
+    </ul>
+  </div>
+
+  <section id="Home">
+    <center>
+      <h1 style="font-size: 5em; color:white;">Amey Web Here!</h1>
+      <h3 style="font-size: 3em;">
+        Explore all new home page of Amey Web with amazing features
+      </h3>
+    </center>
+  </section>
+
+  <section id="Search">
+    <button class="gts" id="gtsbutton" onclick="gotoSearch()">Go To Amey Web Search</button>
+    <br>
+    <center>
+      <h1 class="gradient">Version 4.0 Here</h1>
+      <h3 style="font-size: 2em;">What's New?</h3>
+      <h4 style="font-size: 1.5em;">Outlines Removed which looked ugly & added a new language (Hindi). Now, The version
+        4.0 has 2 languages(English & Hindi)</h4>
+      <br>
+      <hr>
+      <br>
+      <h1 class="gradient">Version 3.0</h1>
+      <h3 style="font-size: 2em;">What's New?</h3>
+      <h4 style="font-size: 1.5em;">Added Gradient Animation Effects & Added 4 More Search Engines(20 Total) &
+        Auto-Redirection In Mobile/Desktop</h4>
+      <br>
+      <hr>
+      <br>
+      <h1 class="gradient">Version 2.0</h1>
+      <h3 style="font-size: 2em;">What's New?</h3>
+      <h4 style="font-size: 1.5em;">Now available for mobile devices in main page select your device type & Added 4 More
+        Search Engines(16 Total) & Added simple gradient effect & Added Curves</h4>
+      <br>
+      <hr>
+      <br>
+      <h1 class="gradient">Version 1.0</h1>
+      <h3 style="font-size: 2em;">What's New?</h3>
+      <h4 style="font-size: 1.5em;">Search with 12 Search Engines & Simple and user friendly interference</h4>
+    </center>
+  </section>
+
+  <section id="WebPlayer">
+    <button class="gts" id="gtsbutton" onclick="gotoWebPlayer()">Go To Amey Web Player</button>
+    <br>
+    <center>
+      <h1 class="gradient">Amey Web Player</h1>
+      <h4 style="font-size: 2em;">Discover & Enjoy Allu Arjun Top 10 Songs</h4>
+    </center>
+  </section>
+
+  <section id="DevIdeas">
+    <center>
+      <h1 class="gradient">Today's Devoloper Idea</h1>
+      <h4 style="font-size: 2em;">Make a color picker with color levels of red, green, blue (because red, green, blue
+        are only the colors which are natural others are mixture of it) using p5.js library
+      </h4>
+      <h4 style="font-size: 1.5em;">Note: Use p5 library if you don't have then <a href="https://bit.ly/ameyweb-p5js" target="_blank">dowload library</a>
+      <br>
+      <a href="https://github.com/AmEyCoDeR/color" target="_blank">Example Code link</a>
+      <br>
+      <a href="https://ameycoder.github.io/color" target="_blank">View How should it look</a>
+     </h4>
+      <h4 id="Reference" class="linkAncors2">
+      Reference Code
+      </h4>
+    </center>
+      <section id="aReference">
+        <h3>
+        var sliderred, slidergreen, sliderblue;
+        <br>
+        var val1, val2, val3;
+        <br>
+        <br>
+        function setup() {
+          <br>
+            createCanvas(600,600);
+        <br>
+        <br>
+            sliderred = createSlider(0, 255, 255,1);
+        <br>
+            sliderred.position(10, 50);
+          <br>
+            sliderred.style('width', '80px');
+        <br>
+        <br>
+            slidergreen = createSlider(0, 255, 255,1);
+          <br>
+            slidergreen.position(10, 100);
+          <br>
+            slidergreen.style('width', '80px');
+        <br>
+        <br>
+            sliderblue = createSlider(0, 255, 255,1);
+          <br>
+            sliderblue.position(10, 150)
+          <br>
+            sliderblue.style('width', '80px');
+        <br>
+        <br>
+        }
+        <br>
+        function draw() {
+          <br>
+            val1 = sliderred.value();
+          <br>
+            val2 = slidergreen.value();
+          <br>
+            val3 = sliderblue.value();
+        <br>
+        <br>
+            background(val1,val2,val3);
+          <br>
+            drawSprites();
+          <br>
+        }
+      </h3>
+      </section>
+  </section>
+
+  <section id="AskUs">
+  <h1 class="gradient">Ask Us Anything</h1>
+  <center>
+  <h4 style="color: black; font-size: 1.5em;"><a href="https://forms.office.com/r/d33rJt1g57" target="_blank">Ask Us</a></h4>
+</center>
+  </section>
+  <section id="FollowUs">
+  <center>
+  <h1 class="gradient">Follow Us On</h1>
+  <h4 style="color: black; font-size: 1.5em;"><a href="https://github.com/AmEyCoDeR" target="_blank">Github</a></h4>
+  <h4 style="color: black; font-size: 1.5em;"><a href="https://www.youtube.com/channel/UCPfTMjCuqLEfOqW3oxtVf0A" target="_blank">Youtube</a></h4>
+  </center>
+  </section>
+
+  <script src="sketch.js"></script>
+</body>
+
+</html>
